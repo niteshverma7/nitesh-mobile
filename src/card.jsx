@@ -10,7 +10,6 @@ export default function Card({name, price, imgsrc,bgcolor, className}) {
        <img src={imgsrc}  />
         <p>{name}</p>
         <h4>{price}</h4>
-       
     </div>
     </>
   )
