@@ -7,7 +7,7 @@ export default function Card({name, price, imgsrc,bgcolor, className}) {
 
    <>
     <div  className={`card ${className || ''}`} style={{backgroundColor: bgcolor}}>
-       <img src={imgsrc}  />
+       <img src={imgsrc}/>
         <p>{name}</p>
         <h4>{price}</h4>
     </div>
