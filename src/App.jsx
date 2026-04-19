@@ -3,11 +3,6 @@ import './App.css'
 import Header from './header'
 import Card from './card'
 import Footer from './footer'
-import cover from './assets/cover.webp'
-import cover2 from './assets/cover2.webp'
-import cover3 from './assets/cover3.webp'
-import cover4 from './assets/cover4.webp'
-import cover5 from './assets/cover5.webp'
 import mcover1 from './assets/mcover1.webp'
 import mcover2 from './assets/mcover2.webp'
 import mcover3 from './assets/mcover3.webp'
@@ -29,12 +24,12 @@ export default function App() {
       <main>
         <div className="cover-img">
           <h3>WELCOME TO NITESH MOBILE</h3>
-        <img src={cover} alt="Cover Image 1" />
+        <img src="cover.webp" alt="Cover Image 1" />
         <h2>EXPLORE YOUR CAREGORY</h2>
-        <img src={cover2} alt="Cover Image 2" />
-        <img src={cover3} alt="Cover Image 3" />
-        <img src={cover4} alt="Cover Image 4" />
-        <img src={cover5} alt="Cover Image 5" />
+        <img src="cover2.webp"alt="Cover Image 5" />
+        <img src="cover3.webp"alt="Cover Image 2" />
+        <img src="cover4.webp"alt="Cover Image 3" />
+        <img src="cover5.webp"alt="Cover Image 4" />
         </div>
         <div className="cards">
            <h2 className='collection'>TREANDING COLLECTION</h2>
